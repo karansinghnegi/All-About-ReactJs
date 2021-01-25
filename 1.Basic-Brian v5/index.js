@@ -37,5 +37,8 @@ const App = () => {
     )
 }
 
-//  ReactDOM.render("<h1>Karan</h1>", document.getElementById('root'))
+//  ReactDOM.render("<h1>Karan</h1>", document.getElementById('root')) will not work in Pure React
 ReactDOM.render(React.createElement(App), document.getElementById("root"))
+
+// You can do this Also though in Pure React
+// ReactDOM.render(App(), document.getElementById("root"))
